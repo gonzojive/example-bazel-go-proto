@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example.greetings;
+
+message Greeting {
+    // Something like "Hello."
+    string word = 1;
+    
+    // Something like "!"
+    string suffix = 2;
+}
